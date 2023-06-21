@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CUSTOMER.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CUSTOMER DETAILS</h1>
+    <div class="customer">
+    <form action="CUSTOMER.php" method="POST">
+    <p>ID</br>
+    <input type="number" name="ID" maxlength="6"><br>
+    <p>NAME</p>
+    <input type="text" name="NAME" maxlength="15"required=""></br>
+    <p>PASSWORD</p>
+    <input type="password" name="PASSWORD" maxlength="6"></br>
+    <p>PHONENO</p>
+    <input type="number" name="PHONENO" maxlength="10"></br>
+    <p>DATE OF BIRTH</p>
+    <input type="date" name="DATE" maxlength="10"></br>
+    <p>ADDRESS</p>
+    <input type="address" name="ADDRESS"></br>
+    <p>PINCODE</p>
+    <input type="number" NAME="PINCODE"  maxlength="6"></br></br>
+    <BUTTON type="submit" id="button1">INSERT</BUTTON>
+    </form>
+        <table>
+            <tr>
+            <td> <FORM action="table.php" method="POST">
+            <button type="submit"id="showdata">DISPLAY DATA</button>
+            </FORM></td>
+            <td>  <form action="UPCUS.HTML" method="POST">
+                <button type="SUBMIT" id="button2">UPDATE--></button>
+                </form></td>
+                <td>  <form action="DELCUS.HTML" method="post">
+                    <button type="SUBMIT" id="button3">DELETE--></button>
+                    </form>
+                    <table></td>
+                </tr>
+        </table>
+ </body>
+</div> 
+</body>
+</html>

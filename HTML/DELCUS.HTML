@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+       {
+        background-color:teal;
+       }
+       h1{
+            margin-left:600px;
+            color:springgreen;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #DEL{
+            margin-left:620px;
+            margin-top: 300px;   
+            height:170px;
+            width:170px;   
+            padding:50px 
+        }
+        #ID{
+            
+          padding-left:10px;
+        }
+        p{
+            color:crimson;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        #DELETE{
+            COLOR: #FFFFFF;
+            background-color:darkred;
+            border-color:green;
+            border-radius:10px;
+            padding:7px;
+        }
+
+    </style>
+</head>
+<body>
+    <H1>DELETE AN RECORD BY ITS ID</H1>
+    <form action="DELCUS.PHP" method="POST">
+    <div id="DEL">
+    <p id="ID">ID</br></br>
+    <input type="number" name="ID" maxlength="6"></br></br>
+    <button type="submit" ID="DELETE">DELETE</button>
+    </div>
+    </form>
+
+    
+</body>
+</html>

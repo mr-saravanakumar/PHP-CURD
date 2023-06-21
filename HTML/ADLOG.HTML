@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="ADLOG.js"></script>
+    <title>ADMINLOGIN</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;  
+            background-image: url(SHOP.jpg);
+            background-size: cover;
+        }
+        .container{
+            top:50%;
+            left:50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            }
+        .card
+        {
+            padding:6px 40px 50px 40px;
+            background:rgba(50,50,50);
+            border-radius: 10px;
+            padding:20px;
+            box-shadow: 20px 20px 10px 2px;
+            opacity: 0.9
+            
+        }
+        #name{
+            background:transparent;
+            border:none;
+            border-bottom: 1px solid white;
+            padding:10px;
+            margin-bottom:15px;
+            color:white;
+        }
+        #password
+        {
+            background:transparent;
+            border:none;
+            border-bottom: 1px solid white;
+            padding:10px;
+            margin-bottom:15px;
+            color:white;
+        }
+
+       #button{
+           background:blue;
+           padding:3px;
+           border-radius:10px;
+           color:aliceblue;
+           margin-left:50px;  
+       }
+       #button:hover{
+           color:black;
+           background:white;
+       }
+       #fg{
+           margin-left:15px;
+           color:red;
+       }
+       </style>
+<body>
+    <div class="container">
+        <div class="card">
+        <form action="CUSTOMER.html" method="POST">
+        <input type="text" placeholder="USERNAME"id="name" name="name"maxlenght="10" required=""><br>
+        <input type="password" placeholder="PASSWORD"name="password" id="password"maxlenght="10" required=""><br>
+        <a href="#"id="fg">FORGET PASSWORD</a><br><br>
+        <div id="errorBox"></div>
+        <input type="submit" value="LOGIN"id="button"></button>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

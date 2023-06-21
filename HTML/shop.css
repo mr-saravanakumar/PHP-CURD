@@ -1,0 +1,64 @@
+*
+{
+    background-image: url(sho.jpg);
+    margin:0px ;
+    background-size:cover;
+
+   }
+#me
+{    margin-left: 50px;
+    font-weight:bold;
+    font-size:20px;
+    padding: 5px;
+    text-shadow: 2px 2px 3px rgb(255, 0, 221);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo
+{
+    background:rgb(50,50,50);
+    margin-left:650px;
+    margin-top:200px;
+    position:absolute;
+    border-radius:20px;
+    box-shadow:inset;
+    height:240px;
+    width:190px;
+    box-shadow: 20px 20px 10px 2px;
+}
+#pass
+{
+    margin:5px;
+    font-weight: bold;
+    color:red;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 100px;
+    text-decoration:underline;
+}
+#user
+{
+    padding:5px;
+    font-weight: bold;
+    color:red;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration:underline;
+}
+#txt1,#txt2
+{
+    margin:10px;
+    border-radius: 5px; 
+}
+button
+{
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top:10px;
+    background: transparent;
+    padding:3px;
+    border-radius: 50px;
+}
+button:hover
+{
+    background-color:linen;
+    border-radius:1px;
+    cursor: pointer;
+}

@@ -1,0 +1,95 @@
+{
+	"folders": [
+		{
+			"name": "HTML",
+			"path": "../../../Users/SARO/Documents/HTML"
+		},
+		{
+			"name": "HTML",
+			"path": "."
+		},
+		{
+			"name": "HTML,CSS,JS",
+			"path": "D:/HTML,CSS,JS"
+		},
+		{
+			"name": "JAVASCRIPT",
+			"path": "D:/JAVASCRIPT"
+		},
+		{
+			"name": "css",
+			"path": "D:/css"
+		},
+		{
+			"name": "projects",
+			"path": "D:/projects"
+		},
+		{
+			"name": "TUTOR PROJECTS",
+			"path": "../../../Users/SARO/OneDrive/Desktop/TUTOR PROJECTS"
+		},
+		{
+			"name": "reactjs",
+			"path": "../../../Users/SARO/OneDrive/Desktop/reactjs"
+		},
+		{
+			"name": "REACT JS",
+			"path": "D:/REACT JS"
+		},
+		{
+			"name": "SEM5-web",
+			"path": "D:/SEM5-web"
+		},
+		{
+			"name": "UML",
+			"path": "../../../Users/SARO/OneDrive/Desktop/UML"
+		},
+		{
+			"name": "node js projects",
+			"path": "../../../Users/SARO/OneDrive/Desktop/node js projects"
+		},
+		{
+			"name": "client",
+			"path": "D:/client"
+		},
+		{
+			"name": "server",
+			"path": "D:/server"
+		},
+		{
+			"name": "brocode",
+			"path": "../../../Users/SARO/OneDrive/Desktop/brocode"
+		},
+		{
+			"name": "Angular",
+			"path": "../../../Users/SARO/OneDrive/Desktop/Angular"
+		},
+		{
+			"name": "Angular_Node",
+			"path": "../../../Users/SARO/OneDrive/Desktop/Angular_Node"
+		},
+		{
+			"name": "DOTO LIST",
+			"path": "D:/DOTO LIST"
+		},
+		{
+			"name": "DOTO LIST MERN",
+			"path": "D:/DOTO LIST MERN"
+		},
+		{
+			"name": "placements",
+			"path": "D:/placements"
+		},
+		{
+			"name": "Testing",
+			"path": "D:/Testing"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "placements",
+		"workbench.colorCustomizations": {
+			"minimap.background": "#00000000",
+			"scrollbar.shadow": "#00000000"
+		}
+	}
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            background-color:teal;
+        }
+        h3{
+            margin-left:600px;
+            color:springgreen;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .update
+        {
+            margin-left:620px;
+            margin-top:300px;
+        }
+        p{
+            color:crimson;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        #upcus{
+            COLOR: #FFFFFF;
+            background-color:darkred;
+            border-color:green;
+            border-radius: 20px;
+            padding:7px;
+        }
+    </style>
+</head>
+<body>
+    <h3>UPDATE THE CUSTOMER DETAILS</h3>
+    <form  action="UPCUS.PHP" method="POST">
+    <div class="update">
+    <p>ID</p>
+    <input type="number" name="ID" maxlength="10"></br>
+    <p>PHONENO</p>
+    <input type="number" name="PHONENO" maxlength="10"></br></br>
+    <button type="submit" name="UPCU"id="upcus">UPDATE</button>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        background-color:gold;
+        background-size: cover;
+    }
+    div
+    {
+         width:200px;
+         height: 200px;
+         background-color:red;
+         margin-top: 10px;
+         transition-duration:3s;
+    
+    }
+    div p{
+         margin-left: 70px;
+         margin-bottom: 500px;
+    }
+    skewed-1{
+        transform:skewy(-40deg);
+        color:white;   
+    }
+    .skewed-2{
+       margin-left:300px;
+       color:white;
+       background-color:green;
+       position:;
+
+       
+    }
+    .skewed-2:hover{
+        transform:rotatey(140deg);
+    }
+    .skewed-3{
+        background-color:blue;
+        color:white;
+        margin-left:300px;
+        box-shadow:10px 20px black;
+        
+    }
+    .skewed-3:hover{
+        transform:scale(.5);
+    }
+    .skewed-4{
+        transform:skewy(-40deg);
+        color:white;
+    }
+    .loading{
+         width:130px;
+         height:20px;
+         margin-left:300px;
+         transition-property: width,height;
+    }
+    .loading:hover{
+        width:300px;
+        height:200px;
+        background-color:pink;
+       
+    }
+    p{
+        color:white;
+    }
+    p:hover{
+        color:black;
+    }
+    .para{
+         margin:0px;
+         position:fixed;
+         width:1000px;
+         height:50px;
+
+    }
+
+</style>
+<body>
+    <div class="para">STICK IN THIS AREA</div>
+    <div class="skewed-1">DESGIN</div>
+    <div class="skewed-2"><p>DESIGN</p></div>
+    <div class="skewed-3">DESIGN</div>
+    <div class="skewed-4">DESGIN</div>
+    <div class="loading">
+        <p> LOADING.....</p>
+    </div>
+</body>
+
+</html>
